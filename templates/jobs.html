@@ -1,0 +1,17 @@
+<html lang="en">
+  <head>
+    <title>Batch Jobs</title>
+  </head>
+  <body>
+    <h2>Jobs</h2>
+    <table>
+      <thead>
+      </thead>
+      <tbody>
+        {% for job in job_list %}
+        <tr>{{ job }}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
