@@ -5,13 +5,9 @@
   <body>
     <h2>Jobs</h2>
     <table>
-      <thead>
-      </thead>
-      <tbody>
-        {% for job in job_list %}
-        <tr>{{ job }}</tr>
-        {% endfor %}
-      </tbody>
+      {% for job in job_list %}
+      <tr><td>{{ job.id }}</td></tr>
+      {% endfor %}
     </table>
   </body>
 </html>
